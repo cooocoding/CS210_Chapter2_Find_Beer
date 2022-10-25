@@ -8,17 +8,17 @@ public class BeerExpert {
    }
 
         List<String> getBrands(String color){
-       List<String> bands = new ArrayList<>();
+       List<String> brands = new ArrayList<>();
 
         if(color.equals("amber")){
-            bands.add("Jack Amber");
-            bands.add("Red Moose");
+            brands.add("Jack Amber");
+            brands.add("Red Moose");
         }else{
-            bands.add("Jail pale Ale");
-            bands.add("Gout Stout");
+            brands.add("Jail pale Ale");
+            brands.add("Gout Stout");
         }
 
-        return bands;
+        return brands;
     }
 
 }
